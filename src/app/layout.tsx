@@ -9,7 +9,7 @@ const fontUrban = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "JobCrafty",
+  title: "craftyr",
   description: "Tailor your resume with AI",
 };
 

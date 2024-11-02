@@ -9,10 +9,10 @@ export default function Hero() {
     <section className="flex flex-col justify-center items-center h-full pt-28">
       <h1 className="text-3xl font-semibold text-center leading- sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl lg:w-5/12">
         Tailored resumes for your{" "}
-        <span className="bg-black text-white">
+        {/* <span className="bg-blue-100 text-slate-600"> */}
           {" "}
           dream job{" "}
-        </span>
+        {/* </span> */}
       </h1>
       <p className="text-lg font-medium text-muted-foreground space-y-2 pt-4 text-center tracking-tight lg:w-3/6 xl:w-3/6">
         Our Al-driven platform analyzes job descriptions and automatically

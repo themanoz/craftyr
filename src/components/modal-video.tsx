@@ -111,6 +111,8 @@ export default function ModalVideo({
                   height={videoHeight}
                   loop
                   controls
+                  controlsList="nodownload noremoteplayback"
+                  disablePictureInPicture
                 >
                   <source src={video} type="video/mp4" />
                   Your browser does not support the video tag.
