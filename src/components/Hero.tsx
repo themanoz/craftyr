@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import React from "react";
 import ModalVideo from "./modal-video";
 import VideoThumb from "../../public/modal-video-thumb.jpg";
