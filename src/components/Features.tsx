@@ -10,7 +10,7 @@ export default function Features() {
           Features
         </div>
         <div className="flex flex-col justify-center items-center pt-5">
-          <h1 className="text-md font-semibold text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="text-md font-semibold text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl">
             Streamline your resume creation
           </h1>
           <p className="text-lg font-medium text-muted-foreground space-y-2 pt-4 text-center tracking-tight lg:w-1/2 xl:w-2/3">
