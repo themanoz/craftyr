@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function CTA() {
   return (
     <div className="flex justify-center items-center">
-      <div className="border w-[890px] h-[270px] p-9 rounded-3xl bg-blue-900 text-white px-28 flex flex-col justify-between items-center">
+      <div className="border w-[890px] h-[270px] py-12 rounded-3xl bg-blue-900 text-white px-28 flex flex-col justify-between items-center">
         <div className="space-y-2 text-center">
           <h1 className="text-6xl font-bold">
             Ready to use{" "}

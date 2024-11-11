@@ -1,4 +1,6 @@
 import React from "react";
+import image from "../../public/image.svg"
+import Image from "next/image";
 
 export default function Features() {
   return (
@@ -16,8 +18,8 @@ export default function Features() {
             professional resume from your job description.
           </p>
         </div>
-        <div className="pt-12 flex ">
-          <div className="w-3/6 space-y-6">
+        <div className="pt-12 flex justify-center items-center gap-10">
+          <div className="w-[400px] space-y-5">
             <div className="space-y-1">
               <h1 className="font-semibold text-xl">Customized Resumes</h1>
               <p className="text-slate-500 font-medium">
@@ -40,7 +42,9 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div>Images</div>
+          <div>
+            <Image src={image} width={300} alt="image"/>
+          </div>
         </div>
       </div>
     </section>
