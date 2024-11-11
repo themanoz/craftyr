@@ -24,7 +24,7 @@ export default function FAQComponent() {
       </AccordionItem>
       <AccordionItem value="item-2">
         <AccordionTrigger>
-        Can I customize my resume after it's optimized?
+        Can I customize my resume after it&apos;s optimized?
         </AccordionTrigger>
         <AccordionContent>
         Yes, you can make any changes to the optimized resume before downloading it.
@@ -47,7 +47,7 @@ export default function FAQComponent() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-5">
-        <AccordionTrigger>What if my resume isn’t getting noticed by employers?</AccordionTrigger>
+        <AccordionTrigger>What if my resume isn&apos;t getting noticed by employers?</AccordionTrigger>
         <AccordionContent>
         We provide tips and suggestions to further enhance your resume and improve its effectiveness.
         </AccordionContent>
