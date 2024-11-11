@@ -6,22 +6,22 @@ import VideoThumb from "../../public/modal-video-thumb.jpg";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col justify-center items-center h-full pt-28">
-      <h1 className="text-3xl font-semibold text-center leading- sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl lg:w-5/12">
+    <section className="flex flex-col justify-center items-center h-full pt-36">
+      <h1 className="text-3xl font-bold text-center leading- sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl lg:w-6/12">
         Tailored resumes for your{" "}
-        {/* <span className="bg-blue-100 text-slate-600"> */}
+        <span className="text-blue-900">
           {" "}
           dream job{" "}
-        {/* </span> */}
+        </span>
       </h1>
-      <p className="text-lg font-medium text-muted-foreground space-y-2 pt-4 text-center tracking-tight lg:w-3/6 xl:w-3/6">
+      <p className="text-lg font-medium text-muted-foreground space-y-2 pt-4 text-center tracking-normal lg:w-3/6 xl:w-3/6">
         Our Al-driven platform analyzes job descriptions and automatically
         optimizes your resume to match the requirements, helping you stand out
         and land your dream job.
       </p>
-      <div className="pt-4 flex gap-4">
-        <Button className="rounded-full text-md px-5">
-          Join waitlist <ArrowRight />{" "}
+      <div className="pt-6 flex gap-4">
+        <Button className="rounded-full text-xl font-semibold p-7 bg-blue-900">
+          Get Started
         </Button>
       </div>
       <ModalVideo
