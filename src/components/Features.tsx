@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Features() {
   return (
-    <section className="pt-28">
+    <section id="features" className="pt-28">
       <div className="flex flex-col justify-center items-center">
         <div className="bg-slate-200 w-fit px-5 py-1 rounded-md font-medium text-slate-600">
           Features

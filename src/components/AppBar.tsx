@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // Importing Lucide icons
+import { Menu, X } from "lucide-react";
 
 export default function AppBar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,9 +22,9 @@ export default function AppBar() {
         <a href="#features">
           <li className="list-none">Features</li>
         </a>
-        <a href="#pricing">
+        {/* <a href="#pricing">
           <li className="list-none">Pricing</li>
-        </a>
+        </a> */}
         <li className="list-none">
           <Button className="rounded-full bg-blue-900 text-white font-semibold">
             Login
@@ -37,7 +37,7 @@ export default function AppBar() {
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       >
-        {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />} {/* Using Lucide icons */}
+        {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
       {isMobileMenuOpen && (
