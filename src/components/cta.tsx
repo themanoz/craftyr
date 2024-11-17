@@ -22,7 +22,7 @@ export default function CTA() {
           <Link href={"/signup"}>
             <Button
               type="submit"
-              className="text-xl font-bold p-6 rounded-full bg-white text-blue-900"
+              className="text-xl font-bold p-6 rounded-full bg-white text-blue-900 hover:bg-white"
             >
               Try for free
             </Button>
